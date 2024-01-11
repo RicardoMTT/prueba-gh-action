@@ -2,7 +2,7 @@ name: Host Angular app in GitHub
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
